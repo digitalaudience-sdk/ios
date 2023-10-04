@@ -1,7 +1,7 @@
 import XCTest
-@testable import ios_sdk
+@testable import digitalAudienceSDK
 
-final class ios_sdkTests: XCTestCase {
+final class digitalAudienceSDKTests: XCTestCase {
     let publisherId = "" // TODO: provide your publisher ID here
 
     func testExample() throws {
