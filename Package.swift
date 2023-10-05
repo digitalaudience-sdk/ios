@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "ios-sdk",
+    name: "digitalAudienceSDK",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "ios-sdk",
-            targets: ["ios-sdk"]),
+            name: "digitalAudienceSDK",
+            targets: ["digitalAudienceSDK"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "ios-sdk"),
+            name: "digitalAudienceSDK"),
         .testTarget(
-            name: "ios-sdkTests",
-            dependencies: ["ios-sdk"]),
+            name: "digitalAudienceSDKTests",
+            dependencies: ["digitalAudienceSDK"]),
     ]
 )

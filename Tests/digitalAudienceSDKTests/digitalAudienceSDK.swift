@@ -1,9 +1,7 @@
-# digitalAudience iOS SDK
+import XCTest
+@testable import digitalAudienceSDK
 
-Here is an example of the code you can add into your application to access digitalAudience endpoints and provide some data 
-
-```
-final class App {
+final class digitalAudienceSDKTests: XCTestCase {
     let publisherId = "" // TODO: provide your publisher ID here
 
     func testExample() throws {
@@ -26,4 +24,3 @@ final class App {
         digitalAudienceApiClient.sendAppleDeviceIdAsync(sendAppleDeviceIdRequest).resume();
     }
 }
-```
